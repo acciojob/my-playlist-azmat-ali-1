@@ -3,14 +3,12 @@ html{
 	background-color:#cccccc;
 }
 .player_one{
-	display:flex;
-	flex-direction:column;
 	background-color:white;
 	border:1px solid black;
 	border-radius:5px;
 	padding:15px;
 }
-.one{
+.list{
 	text-decoration: none;
 	color:black;
 }
@@ -22,16 +20,16 @@ html{
 	flex-grow:100%;
 	
 }
-.audio{
+.player_two{
 	background-color:white;
+	margin:0 auto;
+	width:500px;
 	padding:15px;
 	border-radius:10px ;
+}
+.audio{
 	width:480px;
 }
 .heading{
 	text-align:center;
-}
-.ccc{
-	background-color:white;
-	border:15px solid white;
 }

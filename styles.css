@@ -1,1 +1,37 @@
 /*  your css code here. If applicable */
+html{
+	background-color:#cccccc;
+}
+.player_one{
+	display:flex;
+	flex-direction:column;
+	background-color:white;
+	border:1px solid black;
+	border-radius:5px;
+	padding:15px;
+}
+.one{
+	text-decoration: none;
+	color:black;
+}
+.player_two{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	gap:0px;
+	flex-grow:100%;
+	
+}
+.audio{
+	background-color:white;
+	padding:15px;
+	border-radius:10px ;
+	width:480px;
+}
+.heading{
+	text-align:center;
+}
+.ccc{
+	background-color:white;
+	border:15px solid white;
+}
